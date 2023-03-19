@@ -1,0 +1,13 @@
+import qrcode
+print("Генератор QR")
+print("Checking Compability")
+print("Govnosborkinosoft 2023")
+print("Enter text for Qr")
+text = input("Qr Text: ")
+print("enter filename")
+filename = input("Enter Filename: ") 
+img= qrcode.make(text)
+img.save(filename + ".png")
+print("Sucess")
+print("file" + filename + ".png" + "Created")
+print("Vk.com/cackemc")
